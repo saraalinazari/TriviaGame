@@ -95,7 +95,7 @@ var trivia = {
             console.log(s);
             console.log("inside Click option");
             trivia.checkAnswer();
-      
+            
         trivia.showingAnswer();
 
         clearInterval(trivia.interVal);
@@ -132,9 +132,20 @@ var trivia = {
     },
     showingAnswer: function(){
         //console.log("inside showing answer/ trivia.correct:%%%%%%%%%%%% " + trivia.correct);
+
         $("#feedback").text("Your Answer: "+trivia.correct);
+        if(trivia.correct !=="Correct!"){
+            var tempDiv = $("<div>");
+            var tempAnswer= trivia.questionAnswersCol[trivia.questionID].answer;
+            console.log(tempAnswer+"bhjh"+trivia.questionID)
+            tempDiv.text("Correct Answer is: "+ trivia.questionAnswersCol[trivia.questionID].possibleAnswers[tempAnswer]);
+            $("#feedback").append(tempDiv);
+        }
         $("#timeCounter").text("Remaining Time: " + trivia.counter);
         
+
+
+
         var newDivImgAns = $("<div>");
         var newImgAns = $("<img>");
         newImgAns.attr("src",trivia.questionAnswersCol[trivia.questionID].imgUrl);
