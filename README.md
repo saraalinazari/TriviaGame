@@ -3,10 +3,9 @@
 ## Requirement
 - Create a Trivia game using JavaScript for the logic and jQuery to manipulate HTML. 
 - Layout this app with valid HTML and stylish CSS.
-- Ask different multiple choice questions.
-- Using timers to give user certain amount of time to answer each question. 
+- Ask different multiple choice questions. Using timers to give user certain amount of time to answer each question. 
 - If the answer is wrong shows the right answer with a picture related to the answer. If the answer is right shows the picture related to the answer. Use timeout to show the answers for certain amount of time. 
-- At the end it should show the number of right, wrong, and noanswers.
+- At the end it should show the number of right, wrong, and no answers.
 
 ## Prerequisites
 - Download Chrome or Internet Explorer or Mozilla for your specific operating system.
@@ -25,12 +24,9 @@
 
 ![TriviaGame](https://github.com/saraalinazari/TriviaGame/blob/master/screenshots/screen4.png?raw=true)
 
-- At the end, it shows the number of right.wrong, no answers.
+- At the end, it shows the number of right, wrong, no answers.
 
 ![TriviaGame](https://github.com/saraalinazari/TriviaGame/blob/master/screenshots/screen6.png?raw=true)
-
-
-![TrainActivity](https://github.com/saraalinazari/TrainActivity/blob/master/screenshots/screen1.png?raw=true)
 
 ## Technologies Used
 - HTML
@@ -39,8 +35,7 @@
 - jQuery
 - Timer
 
-## Code Explanation
-### Lesson Learned
+## Lesson Learned
 - How to set timer and use timeout in application. 
 
 ## Authors
